@@ -5,6 +5,6 @@ I am a Data-driven product manager with 9+ years of experience in product develo
 This page has created to show case my projects and share the materials used for my professional growth. I am sharing these files with the public to support the community. Please feel free to reach out to me at kamalakarpeta@outlook.com or [https://www.linkedin.com/in/kamalakarpeta/](https://www.linkedin.com/in/kamalakarpeta/) in case of any access issues.
 
 # Contents
-* [Materials](https://kamalakarpeta.github.io/notes/)
-* [Projects](https://kamalakarpeta.github.io/notes/)
-* [Resumes](https://kamalakarpeta.github.io/notes/)
+* [Materials](https://kamalakarpeta.github.io/materials/)
+* [Projects](https://kamalakarpeta.github.io/projects/)
+* [Resumes](https://kamalakarpeta.github.io/resumes/)
