@@ -1,8 +1,8 @@
 # Summary
-I am a Data-driven product manager with 9+ years of experience in product development, data analysis, and team leadership. Proven track record of driving business growth and innovation through the successful launch and management of data products. Seeking to leverage my skills and experience to deliver data-driven insights and strategy as a data product manager.
+Highly skilled and results-driven data scientist with a strong background in product analysis, research, and data-driven decision-making. Experienced in utilizing Python, SQL, and machine learning techniques to extract insights from complex datasets. Proven track record of developing and implementing data-driven solutions to drive business growth and improve operational efficiency.
 
 # Agenda
-This page has created to show case my projects and share the materials used for my professional growth. I am sharing these files with the public to support the community. Please feel free to reach out to me at kamalakarpeta@outlook.com or [https://www.linkedin.com/in/kamalakarpeta/](https://www.linkedin.com/in/kamalakarpeta/) in case of any access issues.
+This page has been created to showcase my projects and share the materials used for my professional growth. I am sharing these files with the public to support the community. Please feel free to reach out to me at kamalakarpeta@outlook.com or [https://www.linkedin.com/in/kamalakarpeta/](https://www.linkedin.com/in/kamalakarpeta/) in case of any access issues.
 
 # Contents
 * [Materials](https://kamalakarpeta.github.io/materials/)
