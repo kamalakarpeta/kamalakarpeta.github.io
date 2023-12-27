@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 theme: jekyll-theme-slate
+=======
+site_title: Kamalakar's Data Science Blog
+page_title: Home page
+site_baseurl: https://kamalakarpeta.github.io/
+site_description: A blog showcasing my data science projects and sharing insights with the community
+author_name: Kamalakar Peta
+>>>>>>> 8dc3b633a2e1fde87d0cf0a8a305f565795fb710
