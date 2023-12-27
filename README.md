@@ -7,30 +7,21 @@
 - B.Tech, Computer Science | JNTU Anantapur, IN (_April 2011_)
 
 ## Work Experience
-**Assistant Director - Product Manager @ Moody’s Analytics, Bangalore (_January 2022 - Present_)**
-- Collaborated with product managers to enhance product features through data-driven insights and analytics.
-- Utilized Python, SQL, and machine learning algorithms to analyze user behavior, market trends, and competitive landscapes.
-- Developed predictive models and recommendation systems to improve user experience and customer satisfaction.
-- Presented insights and recommendations to stakeholders using Power BI, facilitating strategic decision-making.
-- Worked with cross-functional teams to prioritize development efforts and drive product innovation.
-
-**Product Specialist II @ FactSet Research Systems, Hyderabad (_February 2019 - Janurary 2022_)**
-- Created proof of concept (POC) for planned product enhancements using Python libraries, demonstrating feasibility and potential impact.
-- Collaborated with product managers and development teams to define requirements and specifications for new features.
-- Conducted user testing and gathered feedback to iterate and improve product prototypes.
-- Assisted in the implementation and rollout of new features, ensuring smooth integration with existing systems.
-  
-**Research Analyst @ Franklin Templeton Investments, Hyderabad (_February 2017 - February 2019_)**
-- Automated manual Excel marketing materials using Python and Power BI, streamlining processes and improving efficiency.
-- Developed data pipelines and scripts to extract, transform, and load data from various sources.
-- Created interactive dashboards and visualizations in Power BI to present insights and analysis to stakeholders.
-- Conducted data analysis to support investment decision-making and identify market trends.
-
-**Data Researcher II @ S&P Global, Hyderabad (_October 2014 - January 2017_)**
-- Created daily, weekly, and monthly reports for pricing analysts using Python, automating data extraction and analysis processes.
-- Conducted data quality checks and ensured accuracy and integrity of pricing data.
-- Collaborated with pricing analysts to understand data requirements and deliver actionable insights.
-- Assisted in the development and maintenance of databases and data management systems to support research activities.
+- Assistant Director - Product Manager @ Moody’s Analytics, Bangalore (_January 2022 - Present_)
+- Product Specialist II @ FactSet Research Systems, Hyderabad (_February 2019 - January 2022_)
+- Research Analyst @ Franklin Templeton Investments, Hyderabad (_February 2017 - February 2019_)
+- Data Researcher II @ S&P Global, Hyderabad (_October 2014 - January 2017_)
 
 ## Projects
-_Currently adding projects into the github_
+1. [Data Cleaning and Exploration](https://kamalakarpeta.github.io/data_cleaning_and_exploration/)
+2. Predictive Analysis with Linear Regression
+3. Image Classification with TensorFlow and Keras
+4. Natural Language Processing (NLP) with NLTK
+5. Web Scraping with Beautiful Soup
+6. Time Series Analysis with Pandas
+7. Clustering with K-Means
+8. Recommendation System with Collaborative Filtering
+9. Data Visualization with Plotly
+    
+### Deploy a Machine Learning Model with Flask
+Cap off your journey by deploying a machine learning model using Flask, a web framework for Python. Create a simple web application that takes user input, processes it through your trained model, and provides predictions. This project will give you hands-on experience with model deployment and integration.
