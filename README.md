@@ -3,8 +3,8 @@
 #### Technical Skills: Python, SQL, Power BI, Machine Learning, AWS.
 
 ## Education								       		
-- Master of Business Administration, Finance	| Sri Venkateswara University at Tirupati, IN (_April 2014_)	 			        		
-- Bachelor of Technology, Computer Science and Engineering | Jawaharlal Nehru Technological University at Anantapur, IN (_April 2011_)
+- MBA, Finance	| Sri Venkateswara University, IN (_April 2014_)	 			        		
+- B.Tech, Computer Science | JNTU Anantapur, IN (_April 2011_)
 
 ## Work Experience
 **Assistant Director - Product Manager @ Moody’s Analytics, Bangalore (_January 2022 - Present_)**
