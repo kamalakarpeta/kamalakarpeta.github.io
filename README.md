@@ -1,4 +1,4 @@
-# Senior Data Scientist
+# Senior Data Specialist
 
 #### Technical Skills: Python, SQL, Power BI, Machine Learning, AWS.
 
