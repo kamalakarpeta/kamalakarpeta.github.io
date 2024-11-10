@@ -1,4 +1,4 @@
-## Experienced Data Science Professional
+# Experienced Data Professional
 
 #### Technical Skills: Python, SQL, Machine Learning, Data Operations.
 
