@@ -1,6 +1,6 @@
-# Experienced Data Professional
+# Experienced Data Science Professional
 
-#### Technical Skills: Python, SQL, Power BI, Machine Learning, AWS.
+#### Technical Skills: Python, SQL, Machine Learning, Data Operations.
 
 ## Education								       		
 - MBA, Finance	| Sri Venkateswara University, IN (_April 2014_)	 			        		
