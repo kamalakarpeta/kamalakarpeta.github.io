@@ -8,10 +8,12 @@
 - B.Tech, Computer Science | JNTU Anantapur, IN (_April 2011_)
 
 ## Work Experience
-
 - **Assistant Director - Data Operations @ Moody’s Analytics, Bangalore (_January 2022 - Present_)**
+
 - **Product Specialist II @ FactSet Research Systems, Hyderabad (_February 2019 - January 2022_)**
+
 - **Research Analyst @ Franklin Templeton Investments, Hyderabad (_February 2017 - February 2019_)**
+
 - **Data Researcher II @ S&P Global, Hyderabad (_October 2014 - January 2017_)**
 
 ## Projects
