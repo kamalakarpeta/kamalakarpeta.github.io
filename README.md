@@ -8,7 +8,7 @@
 - B.Tech, Computer Science | JNTU Anantapur, IN (_April 2011_)
 
 ## Work Experience
-- **Assistant Director - Data Operations @ Moody’s Analytics, Bangalore (_January 2022 - Present_)**
+- **Assistant Director - Data Operations @ Moody’s, Bangalore (_January 2022 - Present_)**
 
 - **Product Specialist II @ FactSet Research Systems, Hyderabad (_February 2019 - January 2022_)**
 
