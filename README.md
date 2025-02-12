@@ -1,4 +1,5 @@
-# Experienced Data Professional | Data Engineering Focus
+# Senior Cloud Data Engineer | Building Scalable Data Solutions
+
 
 #### Technical Skills: Python, SQL, Azure Databricks (PySpark), Azure Data Factory, ETL Pipeline Development, Data Quality and Validation, AWS EC2 (Database Management), Streamlit, Power BI, Jupyter Notebook, Git, Microsoft Visual Studio Code
 
