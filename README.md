@@ -10,24 +10,9 @@
 ## Work Experience
 
 - **Assistant Director - Data Operations @ Moody’s Analytics, Bangalore (_January 2022 - Present_)**
-    *   *Design, build, and maintain ETL pipelines using Python, SQL, Azure Databricks (PySpark), and Azure Data Factory for efficient data ingestion, transformation, and loading.*
-    *   *Improved data processing time by 50% through pipeline optimization.* 
-    *   *Implement data profiling and validation processes to ensure data quality and integrity for each dataset ingestion.*
-    *   *Manage databases on AWS EC2 instances (e.g., SQL Server, PostgreSQL).* 
-    *   *Develop data visualizations and reports using Streamlit and Power BI to communicate data insights to stakeholders.*
-    *   *Contribute to data orchestration and data governance initiatives, including automating data workflows using Azure Data Factory to improve operational efficiency.* 
-
 - **Product Specialist II @ FactSet Research Systems, Hyderabad (_February 2019 - January 2022_)**
-    *   *Analyzed product usage data using Python (Pandas) and SQL to identify trends and inform product development.* 
-    *   *Developed reports and dashboards using Streamlit to track key performance indicators and provide insights to product teams.*
-
 - **Research Analyst @ Franklin Templeton Investments, Hyderabad (_February 2017 - February 2019_)**
-    *   *Conducted data analysis using SQL to support investment decisions.*
-    *   *Developed data visualizations using Power BI to communicate research findings to stakeholders.*
-
 - **Data Researcher II @ S&P Global, Hyderabad (_October 2014 - January 2017_)**
-    *   *Manipulated and analyzed large datasets using Python (Pandas and NumPy) and SQL.* 
-    *   *Developed data visualizations using Matplotlib, Seaborn, and Plotly to present research results.* 
 
 ## Projects
 1. [Optimizing Data Ingestion and Processing Pipelines](https://kamalakarpeta.github.io/Optimizing-Data-Ingestion-and-Processing-Pipelines/)
