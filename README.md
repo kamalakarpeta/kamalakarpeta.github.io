@@ -22,6 +22,5 @@
 2. [EU State Aid Data Pipeline with Data Validation and Standardization](https://kamalakarpeta.github.io/eu-state-aid-orbis-pipeline-validation/)
 3. [Orbis Usage Dashboards with Power Automate](https://kamalakarpeta.github.io/orbis-usage-powerbi-powerautomate/)
 4. [Yield Curve Outlier Tool (Streamlit) on AWS EC2](https://kamalakarpeta.github.io/yield-curve-outlier-streamlit-aws/)
-5. [Market Review and Performance Analysis](https://kamalakarpeta.github.io/market-review-and-performance-analysis/)
-6. [Real-time Price Aggregation and Normalization for US Structured Finance Securities](https://kamalakarpeta.github.io/Real-time-price-aggregation-and-normalization-for-us-structured-finance-securities/)
+5. [Real-time Price Aggregation and Normalization for US Structured Finance Securities](https://kamalakarpeta.github.io/Real-time-price-aggregation-and-normalization-for-us-structured-finance-securities/)
 
