@@ -20,7 +20,7 @@
 ## Projects
 1. [PySpark Customs Data Analysis on Databricks](https://kamalakarpeta.github.io/databricks-pyspark-customs-analysis/)
 2. [Automated Data Pipeline for Grant Data Integration](https://kamalakarpeta.github.io/automated-data-integration-pipeline/)
-3. [Orbis Usage Dashboards with Power Automate](https://kamalakarpeta.github.io/orbis-usage-powerbi-powerautomate/)
+3. [Platform Usage Dashboards with Power Automate](https://kamalakarpeta.github.io/platform-usage-powerbi-powerautomate/)
 4. [Yield Curve Outlier Tool (Streamlit) on AWS EC2](https://kamalakarpeta.github.io/yield-curve-outlier-streamlit-aws/)
 5. [Real-time Price Aggregation and Normalization for US Structured Finance Securities](https://kamalakarpeta.github.io/Real-time-price-aggregation-and-normalization-for-us-structured-finance-securities/)
 
