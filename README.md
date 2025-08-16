@@ -1,7 +1,12 @@
 # Senior Cloud Data Engineer | Building Scalable Data Solutions
 
 
-#### Technical Skills: Python, SQL, Azure Databricks (PySpark), Azure Data Factory, ETL Pipeline Development, Data Quality and Validation, AWS EC2 (Database Management), Streamlit, Power BI, Jupyter Notebook, Git, Microsoft Visual Studio Code
+## Technical Skills:
+**Languages:** Python, SQL
+**Big Data & Analytics Frameworks:** PySpark, Apache Airflow
+**Cloud Platforms & Services:** Azure, Databricks, Microsoft Fabric, Azure Data Factory, Azure Synapse, Snowflake
+**Databases & Storage:** MySQL, MongoDB
+**Development & Operations Tools:** GitHub, Jupyter, Visual Studio Code, Docker
 
 ## Education
 
@@ -9,7 +14,7 @@
 - B.Tech, Computer Science | JNTU Anantapur, IN (_April 2011_)
 
 ## Work Experience
-- **Assistant Director - Data Operations @ Moody’s, Bangalore (_January 2022 - Present_)**
+- **Assistant Director - Data Engineer @ Moody’s, Bangalore (_January 2022 - Present_)**
 
 - **Product Specialist II @ FactSet Research Systems, Hyderabad (_February 2019 - January 2022_)**
 
