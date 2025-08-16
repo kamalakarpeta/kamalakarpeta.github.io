@@ -2,10 +2,15 @@
 
 
 ## Technical Skills:
+
 **Languages:** Python, SQL
+
 **Big Data & Analytics Frameworks:** PySpark, Apache Airflow
+
 **Cloud Platforms & Services:** Azure, Databricks, Microsoft Fabric, Azure Data Factory, Azure Synapse, Snowflake
+
 **Databases & Storage:** MySQL, MongoDB
+
 **Development & Operations Tools:** GitHub, Jupyter, Visual Studio Code, Docker
 
 ## Education
@@ -14,13 +19,14 @@
 - B.Tech, Computer Science | JNTU Anantapur, IN (_April 2011_)
 
 ## Work Experience
-- **Assistant Director - Data Engineer @ Moody’s, Bangalore (_January 2022 - Present_)**
 
-- **Product Specialist II @ FactSet Research Systems, Hyderabad (_February 2019 - January 2022_)**
+- **Assistant Director - Data Engineer @ Moody’s, Bangalore** (_January 2022 - Present_)
 
-- **Research Analyst @ Franklin Templeton Investments, Hyderabad (_February 2017 - February 2019_)**
+- **Product Specialist II @ FactSet Research Systems, Hyderabad** (_February 2019 - January 2022_)
 
-- **Data Researcher II @ S&P Global, Hyderabad (_October 2014 - January 2017_)**
+- **Research Analyst @ Franklin Templeton Investments, Hyderabad** (_February 2017 - February 2019_)
+
+- **Data Researcher II @ S&P Global, Hyderabad** (_October 2014 - January 2017_)
 
 ## Projects
 1. [PySpark Customs Data Analysis on Databricks](https://kamalakarpeta.github.io/databricks-pyspark-customs-analysis/)
