@@ -1,7 +1,7 @@
 # Senior Cloud Data Engineer | Building Scalable Data Solutions
 
 ---
-## Technical Skills:
+## Technical Skills
 
 **Languages:** Python, SQL
 
