@@ -1,0 +1,6 @@
+from typing import Callable
+from wandb.errors.term import termlog as termlog
+
+class ArtifactDownloadLogger:
+    def __init__(self, nfiles: int, clock_for_testing: Callable[[], float] = ..., termlog_for_testing: Callable[..., None] = ...) -> None: ...
+    def notify_downloaded(self) -> None: ...

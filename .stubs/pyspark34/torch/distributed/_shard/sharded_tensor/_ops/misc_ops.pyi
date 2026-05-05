@@ -1,0 +1,3 @@
+from _typeshed import Incomplete
+
+def tensor_has_compatible_shallow_copy_type(types, args=(), kwargs: Incomplete | None = None, pg: Incomplete | None = None): ...

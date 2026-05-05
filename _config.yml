@@ -1,5 +1,40 @@
-theme: jekyll-theme-minimal
-title: Kamalakar Peta
-description: Bookmark this to keep an eye on my project updates!
-logo: /assets/img/kamalakar_pic.png
-#show_downloads: true
+# Site Settings
+title: "Kamalakar Peta | Data Architect"
+description: "Data Architect specializing in Microsoft Fabric, Azure Databricks & Cloud Data Platforms"
+url: "https://kamalakarpeta.github.io"
+baseurl: ""
+author: "Kamalakar Peta"
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:title/
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections:
+  gallery:
+    output: true
+  posts:
+    output: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .vscode
