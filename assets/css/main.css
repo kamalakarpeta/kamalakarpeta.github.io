@@ -458,6 +458,20 @@ img {
   color: var(--slate-400);
 }
 
+.timeline-link {
+  display: inline-block;
+  margin-top: 0.85rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-primary);
+  text-decoration: none;
+  transition: opacity var(--transition);
+}
+
+.timeline-link:hover {
+  opacity: 0.75;
+}
+
 /* --- Blog Section --- */
 .blog-grid {
   display: grid;
