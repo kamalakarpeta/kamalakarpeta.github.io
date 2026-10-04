@@ -1,21 +1,70 @@
 ---
 layout: default
-title: "Kamalakar Peta | Hands-on Staff Data Engineer · Data & AI Platform Engineering"
-description: "Hands-on Staff Data Engineer — Databricks & Microsoft Fabric lakehouse platforms, exploring GenAI/RAG"
+title: "Kamalakar Peta | Staff Data Engineer · Modern Data Stack (Databricks · dbt · Airflow)"
+description: "Staff-level Data Engineer — 11+ years building large-scale, governed data pipelines on Databricks, dbt, Airflow, PySpark and SQL for analytics and data-science teams."
+email: kamalakarpeta@outlook.com
+phone: "+91 9494 4560 94"
+location: "Bangalore, India"
 ---
 
 <!-- ===== HERO SECTION ===== -->
 <section class="hero" id="hero">
   <div class="hero-content fade-in">
-    <span class="hero-badge"><i class="fas fa-database"></i>&nbsp; Data &amp; AI Platform Engineering &bull; Databricks &bull; Microsoft Fabric &bull; GenAI/RAG</span>
-    <h1>Building <span class="highlight">Data &amp; AI Platforms</span><br>at Enterprise Scale</h1>
+    <span class="hero-badge"><i class="fas fa-layer-group"></i>&nbsp; Staff Data Engineer &bull; Data &amp; AI Engineering</span>
+    <h1>Modern Data Stack<br>at <span class="highlight">Enterprise Scale</span></h1>
+    <p class="hero-stack">Databricks &bull; dbt &bull; Airflow &bull; PySpark &bull; SQL</p>
     <p class="hero-subtitle">
-      Hands-on Staff Data Engineer (Assistant Director, Data Engineering) at Moody's Analytics. Previously at FactSet, Franklin Templeton & S&P Global.
-      I build the governed Databricks &amp; Microsoft Fabric lakehouse platforms an engineering org builds on — and, most recently, my first GenAI/RAG proof-of-concept on top.
+      Staff-level Data Engineer with 11+ years building and owning large-scale data pipelines across four global
+      financial-data firms. I work across Databricks, dbt, Airflow, PySpark and SQL &mdash; designing platform
+      architecture, treating data quality as a first-class concern, and making governed data genuinely self-serve
+      for analytics and data-science teams.
     </p>
+    <div class="hero-contact">
+      <a href="mailto:{{ page.email }}"><i class="fas fa-envelope"></i> {{ page.email }}</a>
+      <span class="hero-contact-divider" aria-hidden="true"></span>
+      <a href="tel:{{ page.phone | remove: ' ' }}"><i class="fas fa-phone"></i> {{ page.phone }}</a>
+      <span class="hero-contact-divider" aria-hidden="true"></span>
+      <span><i class="fas fa-map-marker-alt"></i> {{ page.location }}</span>
+    </div>
     <div class="hero-cta">
-      <a href="#gallery" class="btn btn-primary"><i class="fas fa-layer-group"></i> View Blueprints</a>
-      <a href="#about" class="btn btn-outline"><i class="fas fa-user"></i> About Me</a>
+      <a href="{{ '/Resume.pdf' | relative_url }}" class="btn btn-primary" download><i class="fas fa-file-arrow-down"></i> Download Resume</a>
+      <a href="#timeline" class="btn btn-outline"><i class="fas fa-briefcase"></i> Experience</a>
+      <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Contact</a>
+    </div>
+    <p class="hero-note">
+      <i class="fas fa-lock"></i>
+      This site shares architecture patterns, technical decisions and personal projects &mdash; deliberately keeping my
+      employer's project specifics and internal volumes private.
+    </p>
+  </div>
+</section>
+
+<!-- ===== WHAT I BRING ===== -->
+<section class="section" id="impact">
+  <div class="section-header fade-in">
+    <h2>What I Bring</h2>
+    <p>The practices I own as a Staff Data &amp; AI Engineer</p>
+  </div>
+  <div class="impact-grid fade-in">
+    <div class="impact-item">
+      <div class="impact-icon"><i class="fas fa-sitemap"></i></div>
+      <h3>Pipeline Architecture</h3>
+      <p>Own ingestion and transformation end-to-end on Databricks, conforming heterogeneous sources into a single trusted schema &mdash; fault-tolerant PySpark where schemas demand it, config-driven dbt models where they don't.</p>
+    </div>
+    <div class="impact-item">
+      <div class="impact-icon"><i class="fas fa-check-double"></i></div>
+      <h3>Data Quality &amp; Observability</h3>
+      <p>Validation gates as a first-class concern &mdash; dbt tests, DLT expectations and Great Expectations &mdash; plus quarantine flows for bad records and end-to-end lineage, so issues are traceable instead of argued about.</p>
+    </div>
+    <div class="impact-item">
+      <div class="impact-icon"><i class="fas fa-chart-pie"></i></div>
+      <h3>Cost Discipline</h3>
+      <p>Treat platform cost as an engineering outcome, not a bill. Workload profiling and autoscaling tuning across environments, with delivery SLAs held steady while spend comes down.</p>
+    </div>
+    <div class="impact-item">
+      <div class="impact-icon"><i class="fas fa-sync-alt"></i></div>
+      <h3>CI/CD for Data</h3>
+      <p>Standardized deployment with Databricks Asset Bundles and GitHub Actions, so pipelines ship through a consistent, reviewable dev&thinsp;&rarr;&thinsp;prod path instead of relying on tribal knowledge.</p>
     </div>
   </div>
 </section>
@@ -24,14 +73,14 @@ description: "Hands-on Staff Data Engineer — Databricks & Microsoft Fabric lak
 <section class="section" id="gallery">
   <div class="section-header fade-in">
     <h2>Platform Blueprints</h2>
-    <p>Enterprise-grade data platform designs and reference patterns</p>
+    <p>Reference patterns I build and own &mdash; architecture and reasoning, without employer-specific detail</p>
   </div>
   <div class="gallery-grid">
     <div class="gallery-card fade-in">
-      <img src="{{ '/assets/images/gallery/medallion-architecture.png' | relative_url }}" alt="Medallion Architecture" class="gallery-card-img" onerror="this.src='https://via.placeholder.com/600x300/1e293b/3b82f6?text=Medallion+Architecture'">
+      <img src="{{ '/assets/images/gallery/medallion-architecture.png' | relative_url }}" alt="Medallion Lakehouse Architecture" class="gallery-card-img" onerror="this.src='https://via.placeholder.com/600x300/1e293b/3b82f6?text=Medallion+Architecture'">
       <div class="gallery-card-body">
         <h3>Medallion Lakehouse Architecture</h3>
-        <p>Bronze-Silver-Gold layered data platform on Databricks with Delta Lake and Unity Catalog governance.</p>
+        <p>A medallion lakehouse built for clarity and governance &mdash; Bronze, Silver and Gold layers on Databricks with Delta Lake and Unity Catalog to keep sources trustable as they evolve.</p>
         <div class="gallery-card-tags">
           <span class="tag">Databricks</span>
           <span class="tag">Delta Lake</span>
@@ -44,37 +93,38 @@ description: "Hands-on Staff Data Engineer — Databricks & Microsoft Fabric lak
       <img src="{{ '/assets/images/gallery/fabric-endtoend.png' | relative_url }}" alt="Microsoft Fabric End-to-End" class="gallery-card-img" onerror="this.src='https://via.placeholder.com/600x300/1e293b/8b5cf6?text=Fabric+End-to-End'">
       <div class="gallery-card-body">
         <h3>Microsoft Fabric End-to-End Pipeline</h3>
-        <p>Unified analytics platform leveraging OneLake, Data Factory, and Power BI for enterprise reporting.</p>
+        <p>A governed Gold layer surfaced via OneLake and Direct Lake in Microsoft Fabric &mdash; delivering near-real-time BI to stakeholders without duplicating the curated data.</p>
         <div class="gallery-card-tags">
           <span class="tag">Microsoft Fabric</span>
           <span class="tag">OneLake</span>
-          <span class="tag">Power BI</span>
-          <span class="tag">Data Factory</span>
+          <span class="tag">Direct Lake</span>
+          <span class="tag">Gold layer</span>
         </div>
       </div>
     </div>
     <div class="gallery-card fade-in">
-      <img src="{{ '/assets/images/gallery/streaming-architecture.png' | relative_url }}" alt="Streaming Architecture" class="gallery-card-img" onerror="this.src='https://via.placeholder.com/600x300/1e293b/3b82f6?text=Streaming+Architecture'">
+      <img src="{{ '/assets/images/gallery/dbt-airflow-pipelines.png' | relative_url }}" alt="dbt and Airflow Standardized Pipelines" class="gallery-card-img" onerror="this.src='https://via.placeholder.com/600x300/1e293b/3b82f6?text=dbt+%2B+Airflow+Pipelines'">
       <div class="gallery-card-body">
-        <h3>Real-Time Streaming Data Platform</h3>
-        <p>Event-driven architecture with Kafka, Spark Structured Streaming, and Delta Live Tables.</p>
+        <h3>dbt + Airflow Standardized Pipelines</h3>
+        <p>Config-driven transformations and orchestrated DAGs &mdash; the separation I apply in practice between runtime-schema-driven PySpark and repeatable dbt models, all tested through parity checks.</p>
         <div class="gallery-card-tags">
-          <span class="tag">Kafka</span>
-          <span class="tag">Spark Streaming</span>
-          <span class="tag">DLT</span>
-          <span class="tag">EventHub</span>
+          <span class="tag">dbt</span>
+          <span class="tag">Airflow</span>
+          <span class="tag">PySpark</span>
+          <span class="tag">Databricks</span>
         </div>
       </div>
     </div>
     <div class="gallery-card fade-in">
-      <img src="{{ '/assets/images/gallery/data-mesh.png' | relative_url }}" alt="Data Mesh" class="gallery-card-img" onerror="this.src='https://via.placeholder.com/600x300/1e293b/8b5cf6?text=Data+Mesh'">
+      <img src="{{ '/assets/images/gallery/data-quality-framework.png' | relative_url }}" alt="Data Quality and Observability Framework" class="gallery-card-img" onerror="this.src='https://via.placeholder.com/600x300/1e293b/8b5cf6?text=Data+Quality+%26+Observability'">
       <div class="gallery-card-body">
-        <h3>Data Mesh on Cloud</h3>
-        <p>Domain-oriented decentralized data ownership with federated governance and self-serve infrastructure.</p>
+        <h3>Data Quality &amp; Observability Framework</h3>
+        <p>Validation gates, quarantine flows and lineage &mdash; applying dbt tests, DLT expectations and Great Expectations so pipelines fail fast and issues are traceable instead of opaque.</p>
         <div class="gallery-card-tags">
-          <span class="tag">Data Mesh</span>
-          <span class="tag">Domain-Driven</span>
-          <span class="tag">Governance</span>
+          <span class="tag">dbt tests</span>
+          <span class="tag">DLT expectations</span>
+          <span class="tag">Great Expectations</span>
+          <span class="tag">Unity Catalog lineage</span>
         </div>
       </div>
     </div>
@@ -85,45 +135,75 @@ description: "Hands-on Staff Data Engineer — Databricks & Microsoft Fabric lak
 <section class="section" id="timeline">
   <div class="section-header fade-in">
     <h2>Professional Path</h2>
-    <p>A journey through data engineering leadership across global financial enterprises</p>
+    <p>Eleven years owning data platforms end-to-end across four global financial-data firms</p>
   </div>
   <div class="timeline">
+    <p class="timeline-disclaimer"><i class="fas fa-circle-info"></i> Scopes below are described in general terms &mdash; volumes, team sizes and internal project names are intentionally omitted.</p>
+
+    <!-- Moody's -->
     <div class="timeline-item fade-in">
       <div class="timeline-dot"></div>
       <div class="timeline-content">
-        <span class="timeline-date">Current</span>
-        <h3>Assistant Director - Data Engineer</h3>
-        <h4>Moody's Analytics</h4>
-        <p>Leading data platform modernization using Databricks on AWS — building lakehouse architectures, Delta Live Tables pipelines, and Unity Catalog governance frameworks.</p>
+        <span class="timeline-date">Jan 2022 &ndash; Present &bull; Bangalore, India</span>
+        <h3>Assistant Director, Data Engineer <span class="timeline-level">Staff-level IC</span></h3>
+        <h4>Moody's</h4>
+        <ul class="timeline-points">
+          <li>Own ingestion and transformation end-to-end for a large financial data platform on Databricks, conforming many heterogeneous global sources into a single trusted schema.</li>
+          <li>Led the migration of legacy PySpark pipelines onto a standardized <strong>dbt + PySpark</strong> stack orchestrated by <strong>Airflow</strong>, with automated value-parity checks comparing old and new outputs.</li>
+          <li>Built the team's <strong>data-quality and observability framework</strong> &mdash; validation gates, quarantine flows and Unity Catalog lineage &mdash; and set <strong>CI/CD for data</strong> with Databricks Asset Bundles and GitHub Actions.</li>
+          <li>Made the design call to separate runtime-schema-driven jobs (PySpark) from config-driven models (dbt) &mdash; a classification standard that keeps transformation logic testable and maintainable.</li>
+          <li>Published documented, event-driven data outputs and self-serve datasets consumed by several downstream analytics and data-science teams, and extended a governed Gold layer to Microsoft Fabric (Direct Lake) for near-real-time BI without duplication.</li>
+          <li>Provide technical direction and mentorship across the team, reviewing code to hold data-modeling and pipeline standards, and delivered the team's first <strong>GenAI proof-of-concept</strong> (RAG on Mosaic AI Vector Search) as a reference pattern for future AI/ML work.</li>
+        </ul>
       </div>
     </div>
+
+    <!-- FactSet -->
     <div class="timeline-item fade-in">
       <div class="timeline-dot"></div>
       <div class="timeline-content">
-        <span class="timeline-date">Previous</span>
-        <h3>Product Specialist II / Senior Data Engineer</h3>
-        <h4>FactSet</h4>
-        <p>Engineered high-throughput data pipelines processing financial market data at scale with Spark and cloud-native services.</p>
+        <span class="timeline-date">Feb 2019 &ndash; Jan 2022 &bull; Hyderabad, India</span>
+        <h3>Senior Data Engineer <span class="timeline-level">Product Specialist II</span></h3>
+        <h4>FactSet Research Systems</h4>
+        <ul class="timeline-points">
+          <li>Built high-throughput market-data pipelines on <strong>Apache Spark</strong> and AWS (EC2, S3, Redshift), provisioned via <strong>Terraform</strong>, delivering reliable pricing data to client-facing products.</li>
+          <li>Designed and shipped a data-quality web app applying <strong>unsupervised outlier detection</strong> to spot-rate data, catching pricing anomalies before client delivery.</li>
+          <li>Automated analytics workflows over vendor APIs, eliminating substantial recurring manual effort and turning ad-hoc product requests into self-serve pipelines.</li>
+          <li>Partnered with the product team to build repeatable usage-data pipelines, reducing delivery turnaround time.</li>
+        </ul>
       </div>
     </div>
+
+    <!-- Franklin Templeton -->
     <div class="timeline-item fade-in">
       <div class="timeline-dot"></div>
       <div class="timeline-content">
-        <span class="timeline-date">Previous</span>
-        <h3>Research Analyst / Data Engineer</h3>
-        <h4>Franklin Templeton</h4>
-        <p>Built ETL frameworks and data warehousing solutions for investment analytics and portfolio management systems.</p>
+        <span class="timeline-date">Feb 2017 &ndash; Feb 2019 &bull; Hyderabad, India</span>
+        <h3>Data Engineer <span class="timeline-level">Research Analyst</span></h3>
+        <h4>Franklin Templeton Investments</h4>
+        <ul class="timeline-points">
+          <li>Built ETL frameworks and data-warehousing solutions powering investment analytics and portfolio-management systems.</li>
+          <li>Designed <strong>dimensional data marts (star schema)</strong> giving research analysts and portfolio managers consistent, point-in-time datasets.</li>
+          <li>Automated recurring research workflows in Python and SQL, improving data freshness and freeing analyst time for higher-value work.</li>
+        </ul>
       </div>
     </div>
+
+    <!-- S&P Global -->
     <div class="timeline-item fade-in">
       <div class="timeline-dot"></div>
       <div class="timeline-content">
-        <span class="timeline-date">Previous</span>
-        <h3>Data Researcher II/ Data Engineer</h3>
-        <h4>S&P Global</h4>
-        <p>Developed data integration solutions and analytics dashboards for credit risk and market intelligence platforms.</p>
+        <span class="timeline-date">Oct 2014 &ndash; Jan 2017 &bull; Hyderabad, India</span>
+        <h3>Data Engineer <span class="timeline-level">Data Researcher II</span></h3>
+        <h4>S&amp;P Global <span class="timeline-muted">(via Genpact)</span></h4>
+        <ul class="timeline-points">
+          <li>Built Python and SQL pipelines aggregating and normalizing multi-vendor pricing for US structured-finance securities into a single source for the pricing desk.</li>
+          <li>Automated structured-products operations and vendor feeds, improving processing turnaround time.</li>
+          <li>Established early data-quality and reconciliation checks that improved pricing accuracy and downstream trust.</li>
+        </ul>
       </div>
     </div>
+
   </div>
 </section>
 
@@ -131,7 +211,7 @@ description: "Hands-on Staff Data Engineer — Databricks & Microsoft Fabric lak
 <section class="section" id="journey">
   <div class="section-header fade-in">
     <h2>Project Journey</h2>
-    <p>Evolving with the data stack — from Python &amp; SQL pipelines to Databricks and Microsoft Fabric — building the platforms that serve analysts, data scientists and ML engineers</p>
+    <p>My own builds &mdash; GitHub repos I publish to show how I work</p>
   </div>
   <div class="timeline">
     <div class="timeline-item fade-in">
@@ -189,8 +269,8 @@ description: "Hands-on Staff Data Engineer — Databricks & Microsoft Fabric lak
       <div class="timeline-content">
         <span class="timeline-date">2022</span>
         <h3>Customs &amp; Trade Analytics Lakehouse</h3>
-        <h4>Databricks · PySpark · Delta · Unity Catalog — Senior DE &rarr; Staff Data Engineer</h4>
-        <p>Moved to the lakehouse: a medallion architecture enriching the Orbis data product with large-scale international-trade analytics.</p>
+        <h4>Databricks · PySpark · Delta · Unity Catalog — Assistant Director, Data Engineer (Staff-level IC)</h4>
+        <p>My own build: a medallion architecture for large-scale international-trade analytics on Databricks &mdash; the lakehouse patterns I work with daily, reproduced end-to-end in public.</p>
         <a class="timeline-link" href="https://github.com/kamalakarpeta/customs-trade-analytics-databricks-pyspark" target="_blank" rel="noopener">View repository &rarr;</a>
       </div>
     </div>
@@ -199,7 +279,7 @@ description: "Hands-on Staff Data Engineer — Databricks & Microsoft Fabric lak
       <div class="timeline-content">
         <span class="timeline-date">2023</span>
         <h3>Grant Data Integration Pipeline</h3>
-        <h4>Databricks · Delta · Great Expectations — Staff Data Engineer</h4>
+        <h4>Databricks · Delta · Great Expectations — Assistant Director, Data Engineer (Staff-level IC)</h4>
         <p>End-to-end automated integration with data quality as a first-class concern — validation gates, quarantine and a reusable ingestion template.</p>
         <a class="timeline-link" href="https://github.com/kamalakarpeta/grant-data-integration-databricks-pipeline" target="_blank" rel="noopener">View repository &rarr;</a>
       </div>
@@ -209,8 +289,8 @@ description: "Hands-on Staff Data Engineer — Databricks & Microsoft Fabric lak
       <div class="timeline-content">
         <span class="timeline-date">2025</span>
         <h3>Financial Research RAG</h3>
-        <h4>Databricks GenAI · Mosaic AI Vector Search · MLflow — Data &amp; AI Platform Engineering</h4>
-        <p>The team's first RAG proof-of-concept over financial research — prototyping grounded, cited retrieval on Databricks Mosaic AI Vector Search.</p>
+        <h4>Databricks GenAI · Mosaic AI Vector Search · MLflow — Assistant Director, Data Engineer (Staff-level IC)</h4>
+        <p>My exploration of retrieval-augmented generation over financial research &mdash; prototyping grounded, cited retrieval on Databricks Mosaic AI Vector Search, the reference pattern behind my move into Data &amp; AI Engineering.</p>
         <a class="timeline-link" href="https://github.com/kamalakarpeta/financial-research-rag-databricks-genai" target="_blank" rel="noopener">View repository &rarr;</a>
       </div>
     </div>
@@ -219,8 +299,8 @@ description: "Hands-on Staff Data Engineer — Databricks & Microsoft Fabric lak
       <div class="timeline-content">
         <span class="timeline-date">2026 &middot; Present</span>
         <h3>Enterprise Lakehouse on Microsoft Fabric</h3>
-        <h4>Microsoft Fabric · OneLake · Direct Lake — Data &amp; AI Platform Engineering</h4>
-        <p>A unified Fabric lakehouse serving BI (Direct Lake), analysts (SQL) and data science from one governed Gold layer — mirroring the Databricks build to show both platforms.</p>
+        <h4>Microsoft Fabric · OneLake · Direct Lake — Assistant Director, Data Engineer (Staff-level IC)</h4>
+        <p>A unified Fabric lakehouse serving BI (Direct Lake), analysts (SQL) and data science from one governed Gold layer — showing the same architecture delivered on a second cloud platform.</p>
         <a class="timeline-link" href="https://github.com/kamalakarpeta/enterprise-lakehouse-microsoft-fabric" target="_blank" rel="noopener">View repository &rarr;</a>
       </div>
     </div>
@@ -231,7 +311,7 @@ description: "Hands-on Staff Data Engineer — Databricks & Microsoft Fabric lak
 <section class="section" id="blog">
   <div class="section-header fade-in">
     <h2>Technical Blog</h2>
-    <p>Deep dives into data architecture, Databricks, and Microsoft Fabric</p>
+    <p>Deep dives into data pipeline architecture, Databricks, dbt, Airflow, and CI/CD for data</p>
   </div>
   <div class="blog-grid">
     {% for post in site.posts limit:6 %}
@@ -366,67 +446,91 @@ description: "Hands-on Staff Data Engineer — Databricks & Microsoft Fabric lak
 <section class="section" id="techstack">
   <div class="section-header fade-in">
     <h2>Tech Stack</h2>
-    <p>Tools and technologies I build with daily</p>
+    <p>The modern data stack I build, own and operate on every day</p>
   </div>
   <div class="techstack-grid">
     <div class="techstack-category fade-in">
-      <h3><i class="fas fa-cloud"></i> Cloud Platforms</h3>
-      <div class="tech-items">
-        <span class="tech-item">Microsoft Azure</span>
-        <span class="tech-item">AWS</span>
-        <span class="tech-item">Microsoft Fabric</span>
-        <span class="tech-item">Databricks</span>
-      </div>
-    </div>
-    <div class="techstack-category fade-in">
-      <h3><i class="fas fa-database"></i> Data Engineering</h3>
-      <div class="tech-items">
-        <span class="tech-item">Apache Spark</span>
-        <span class="tech-item">PySpark</span>
-        <span class="tech-item">Delta Lake</span>
-        <span class="tech-item">Delta Live Tables</span>
-        <span class="tech-item">Apache Kafka</span>
-        <span class="tech-item">Airflow</span>
-      </div>
-    </div>
-    <div class="techstack-category fade-in">
-      <h3><i class="fas fa-project-diagram"></i> Architecture Patterns</h3>
-      <div class="tech-items">
-        <span class="tech-item">Medallion Architecture</span>
-        <span class="tech-item">Data Mesh</span>
-        <span class="tech-item">Lakehouse</span>
-        <span class="tech-item">Data Vault 2.0</span>
-        <span class="tech-item">Star Schema</span>
-      </div>
-    </div>
-    <div class="techstack-category fade-in">
-      <h3><i class="fas fa-shield-alt"></i> Governance & Security</h3>
-      <div class="tech-items">
-        <span class="tech-item">Unity Catalog</span>
-        <span class="tech-item">Purview</span>
-        <span class="tech-item">RBAC</span>
-        <span class="tech-item">Data Lineage</span>
-        <span class="tech-item">Data Quality</span>
-      </div>
-    </div>
-    <div class="techstack-category fade-in">
-      <h3><i class="fas fa-code"></i> Languages & Tools</h3>
+      <h3><i class="fas fa-code"></i> Languages &amp; Query</h3>
       <div class="tech-items">
         <span class="tech-item">Python</span>
         <span class="tech-item">SQL</span>
-        <span class="tech-item">Scala</span>
-        <span class="tech-item">Terraform</span>
-        <span class="tech-item">Git</span>
-        <span class="tech-item">Docker</span>
+        <span class="tech-item">PySpark</span>
       </div>
     </div>
     <div class="techstack-category fade-in">
-      <h3><i class="fas fa-chart-bar"></i> Analytics & BI</h3>
+      <h3><i class="fas fa-database"></i> Data Platform</h3>
       <div class="tech-items">
-        <span class="tech-item">Power BI</span>
-        <span class="tech-item">Databricks SQL</span>
-        <span class="tech-item">Azure Synapse</span>
+        <span class="tech-item">Databricks</span>
+        <span class="tech-item">Unity Catalog</span>
+        <span class="tech-item">Delta Lake</span>
+        <span class="tech-item">Databricks Workflows</span>
+        <span class="tech-item">Databricks Asset Bundles</span>
         <span class="tech-item">dbt</span>
+        <span class="tech-item">Apache Spark</span>
+      </div>
+    </div>
+    <div class="techstack-category fade-in">
+      <h3><i class="fas fa-sitemap"></i> Orchestration</h3>
+      <div class="tech-items">
+        <span class="tech-item">Apache Airflow</span>
+        <span class="tech-item">MWAA</span>
+        <span class="tech-item">Databricks Workflows</span>
+        <span class="tech-item">Dependency-aware DAGs</span>
+        <span class="tech-item">SLA alerting</span>
+        <span class="tech-item">Backfills &amp; retries</span>
+      </div>
+    </div>
+    <div class="techstack-category fade-in">
+      <h3><i class="fas fa-check-double"></i> Data Quality &amp; Observability</h3>
+      <div class="tech-items">
+        <span class="tech-item">dbt tests</span>
+        <span class="tech-item">DLT expectations</span>
+        <span class="tech-item">Great Expectations</span>
+        <span class="tech-item">Data reconciliation</span>
+        <span class="tech-item">Unity Catalog lineage</span>
+        <span class="tech-item">Quarantine flows</span>
+      </div>
+    </div>
+    <div class="techstack-category fade-in">
+      <h3><i class="fas fa-sync-alt"></i> CI/CD for Data</h3>
+      <div class="tech-items">
+        <span class="tech-item">Databricks Asset Bundles</span>
+        <span class="tech-item">GitHub Actions</span>
+        <span class="tech-item">Terraform (IaC)</span>
+      </div>
+    </div>
+    <div class="techstack-category fade-in">
+      <h3><i class="fas fa-cloud"></i> Cloud</h3>
+      <div class="tech-items">
+        <span class="tech-item">AWS</span>
+        <span class="tech-item">S3</span>
+        <span class="tech-item">Glue</span>
+        <span class="tech-item">MWAA</span>
+        <span class="tech-item">Lambda</span>
+        <span class="tech-item">IAM</span>
+        <span class="tech-item">Redshift</span>
+        <span class="tech-item">Microsoft Azure</span>
+        <span class="tech-item">Microsoft Fabric</span>
+        <span class="tech-item">OneLake</span>
+        <span class="tech-item">Direct Lake</span>
+      </div>
+    </div>
+    <div class="techstack-category fade-in">
+      <h3><i class="fas fa-project-diagram"></i> Data Modeling</h3>
+      <div class="tech-items">
+        <span class="tech-item">Dimensional (star schema)</span>
+        <span class="tech-item">Canonical modeling</span>
+        <span class="tech-item">Medallion (Bronze/Silver/Gold)</span>
+        <span class="tech-item">Data contracts</span>
+      </div>
+    </div>
+    <div class="techstack-category fade-in">
+      <h3><i class="fas fa-robot"></i> Data &amp; AI Engineering</h3>
+      <div class="tech-items">
+        <span class="tech-item">Mosaic AI Vector Search</span>
+        <span class="tech-item">RAG patterns</span>
+        <span class="tech-item">Isolation Forest</span>
+        <span class="tech-item">Apache Kafka</span>
       </div>
     </div>
   </div>
@@ -436,7 +540,7 @@ description: "Hands-on Staff Data Engineer — Databricks & Microsoft Fabric lak
 <section class="section" id="about">
   <div class="section-header fade-in">
     <h2>About Me</h2>
-    <p>Building the future of enterprise data, one architecture at a time</p>
+    <p>Building dependable systems out of ambiguous requirements</p>
   </div>
   <div class="about-container fade-in">
     <div class="about-image">
@@ -446,17 +550,27 @@ description: "Hands-on Staff Data Engineer — Databricks & Microsoft Fabric lak
     </div>
     <div class="about-text">
       <h3>Kamalakar Peta</h3>
+      <p class="about-role">Staff Data Engineer &mdash; Modern Data Stack (Databricks &bull; dbt &bull; Airflow)</p>
       <p>
-        I'm a hands-on Staff Data Engineer with deep expertise in designing, building, and owning enterprise-scale data platforms.
-        My career spans senior data-engineering roles at some of the world's most respected financial-services firms —
-        Moody's Analytics, FactSet, Franklin Templeton, and S&P Global.
+        I'm a Staff-level Data Engineer with 11+ years building and owning large-scale data pipelines across four global
+        financial-data firms &mdash; Moody's, FactSet, Franklin Templeton and S&amp;P Global. My focus areas are data
+        pipeline architecture, distributed data processing, orchestration, data quality &amp; observability, and CI/CD for data.
       </p>
       <p>
-        Currently at Moody's Analytics as Assistant Director, Data Engineering (a Staff-level IC role), I build and own the
-        governed Databricks (on AWS) and Microsoft Fabric lakehouse platform my engineering org builds on — design and CI/CD
-        standards adopted across 12+ production pipelines, Unity Catalog governance, and FinOps that cut cross-environment
-        compute ~35%. Most recently I built the team's first GenAI/RAG proof-of-concept on Mosaic AI Vector Search, and I'm
-        extending into AI/ML platform engineering (feature stores, model serving, MLOps).
+        At Moody's I own ingestion and transformation for a Databricks platform at enterprise scale. I've led the migration
+        of legacy PySpark pipelines onto a standardized dbt + PySpark stack orchestrated by Airflow, built the team's
+        data-quality and observability framework, and treated platform cost as an engineering outcome rather than a bill to be paid.
+      </p>
+      <p>
+        I'm at my best in the grey zone between platform and practice &mdash; setting standards a team actually reuses, reviewing
+        code, and mentoring engineers. I collaborate closely with analytics and data-science colleagues to make governed data
+        genuinely self-serve, and recently delivered a retrieval-augmented generation proof-of-concept as a reference pattern
+        for the team's future AI/ML work.
+      </p>
+      <p>
+        I keep this site deliberately general. It shares architecture patterns, technical reasoning and personal projects
+        rather than my employer's project specifics &mdash; the depth is here, the confidential detail is not. The
+        <a href="#journey">projects below</a> are my own builds, and they're the most direct way to see how I work.
       </p>
       <p>
         Beyond work, I create Telugu-language tutorials on YouTube, making data engineering concepts accessible
@@ -469,13 +583,69 @@ description: "Hands-on Staff Data Engineer — Databricks & Microsoft Fabric lak
         </div>
         <div class="stat-item">
           <div class="stat-number">4</div>
-          <div class="stat-label">Tier-1 Firms</div>
+          <div class="stat-label">Global Financial-Data Firms</div>
         </div>
         <div class="stat-item">
-          <div class="stat-number">50+</div>
-          <div class="stat-label">Platforms Delivered</div>
+          <div class="stat-number">3</div>
+          <div class="stat-label">Clouds Shipped On</div>
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- ===== EDUCATION ===== -->
+<section class="section" id="education">
+  <div class="section-header fade-in">
+    <h2>Education</h2>
+    <p>Engineering foundations, plus a finance lens on the business</p>
+  </div>
+  <div class="education-grid">
+    <div class="education-card fade-in">
+      <div class="education-icon"><i class="fas fa-graduation-cap"></i></div>
+      <div class="education-body">
+        <span class="education-meta">2007 &ndash; 2011</span>
+        <h3>B-Tech, Computer Science &amp; Engineering</h3>
+        <h4>JNTU Anantapur</h4>
+      </div>
+    </div>
+    <div class="education-card fade-in">
+      <div class="education-icon"><i class="fas fa-chart-line"></i></div>
+      <div class="education-body">
+        <span class="education-meta">2012 &ndash; 2014</span>
+        <h3>MBA, Finance</h3>
+        <h4>Sri Venkateswara University</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="section" id="contact">
+  <div class="section-header fade-in">
+    <h2>Get in Touch</h2>
+    <p>Open to Staff Data Engineer roles in Data &amp; AI Engineering</p>
+  </div>
+  <div class="contact-grid fade-in">
+    <a class="contact-card" href="mailto:{{ page.email }}">
+      <i class="fas fa-envelope"></i>
+      <span class="contact-label">Email</span>
+      <span class="contact-value">{{ page.email }}</span>
+    </a>
+    <a class="contact-card" href="tel:{{ page.phone | remove: ' ' }}">
+      <i class="fas fa-phone"></i>
+      <span class="contact-label">Phone</span>
+      <span class="contact-value">{{ page.phone }}</span>
+    </a>
+    <div class="contact-card">
+      <i class="fas fa-map-marker-alt"></i>
+      <span class="contact-label">Location</span>
+      <span class="contact-value">{{ page.location }}</span>
+    </div>
+    <a class="contact-card" href="{{ '/Resume.pdf' | relative_url }}" download>
+      <i class="fas fa-file-arrow-down"></i>
+      <span class="contact-label">Resume</span>
+      <span class="contact-value">Download PDF</span>
+    </a>
   </div>
 </section>

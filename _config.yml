@@ -1,6 +1,6 @@
 # Site Settings
-title: "Kamalakar Peta | Hands-on Staff Data Engineer · Data & AI Platform Engineering"
-description: "Hands-on Staff Data Engineer — Databricks & Microsoft Fabric lakehouse platforms, exploring GenAI/RAG"
+title: "Kamalakar Peta | Staff Data Engineer · Modern Data Stack (Databricks · dbt · Airflow)"
+description: "Staff-level Data Engineer — 11+ years building large-scale, governed data pipelines on Databricks, dbt, Airflow, PySpark and SQL for analytics and data-science teams."
 url: "https://kamalakarpeta.github.io"
 baseurl: ""
 author: "Kamalakar Peta"
